@@ -1,0 +1,124 @@
+.container {
+  margin: 0;
+  padding: 0;
+}
+
+.nav__container {
+  color: white;
+  cursor: pointer;
+}
+
+.nav__logo {
+  width: 12rem;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+
+.nav__icons {
+  font-size: 2rem;
+}
+
+.icon__phone {
+  position: absolute;
+  right: 70px;
+  top: 18%;
+}
+
+.icon__dots {
+  position: absolute;
+  right: 70px;
+  top: 50%;
+}
+
+.icon__mail {
+  position: absolute;
+  right: 70px;
+  bottom: 18%;
+}
+
+.nav__icons-single {
+  &:hover {
+    color: purple;
+
+    animation: forwards;
+    transition: all 0.2s ease-in-out;
+  }
+}
+
+.nav__container h3 {
+  position: absolute;
+  bottom: 40px;
+  left: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  outline: auto;
+  padding: 10px;
+
+  &:hover {
+    color: purple;
+    outline: 1px solid purple;
+  }
+}
+
+.nav__words {
+  position: absolute;
+  top: 50%;
+  text-align: left;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  transform: translate(50%, -50%);
+}
+
+.nav__words h4 {
+  font-weight: 600;
+  font-size: 1.2rem;
+  font-family: "Roboto";
+  color: white;
+
+  &:hover {
+    color: purple;
+  }
+}
+
+.nav__socials {
+  position: absolute;
+  display: flex;
+  gap: 1.5rem;
+  bottom: 30px;
+  left: 40%;
+  transform: translate(50%, -50%);
+  font-size: 1.8rem;
+}
+
+.nav__active {
+  font-size: 72px;
+  background: -webkit-linear-gradient(#eee, grey);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  &:hover {
+    background: -webkit-color(purple);
+  }
+}
+
+@keyframes rgb_text {
+  0% {
+    background: -webkit-linear-gradient(#eee, purple);
+  }
+  50% {
+    background: -webkit-linear-gradient(purple, #eee);
+  }
+  100% {
+    background: -webkit-linear-gradient(#eee, purple);
+  }
+}
+
+/* ============= Medium Devices ============= */
+@media screen and (max-width: 1200px) {
+}
+
+/* ============= Small Devices ============= */
+@media screen and (max-width: 786px) {
+}

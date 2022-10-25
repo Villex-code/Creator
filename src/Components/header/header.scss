@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital@1&family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital@1&family=Oswald&display=swap");
+
+.header__inside {
+  position: absolute;
+  left: 40%;
+  transform: translate(-50%, 50%);
+  top: 20%;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.header__inside h4 {
+  text-align: left;
+  font-family: "Noto Sans", sans-serif;
+  font-family: "Oswald", sans-serif;
+  margin-bottom: 10px;
+  font-size: 2rem;
+}
+
+.header__inside h5 {
+  text-align: left;
+  line-height: 1.7rem;
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 20px;
+}
+
+.header__button {
+  font-size: 1rem;
+  letter-spacing: 1px;
+  width: 50%;
+  color: rgba(128, 128, 128);
+  background: transparent;
+
+  padding: 10px;
+  border-radius: 30px;
+  font-family: "Noto Sans", sans-serif;
+  font-family: "Oswald", sans-serif;
+
+  // Border
+  max-width: 250px;
+  padding: 1rem;
+  color: white;
+  border-width: 3px;
+  border-style: solid;
+  border-image: linear-gradient(to bottom, red, rgba(0, 0, 0, 0)) 1 100%;
+
+  //Animation
+
+  transition: 0.5s;
+
+  &:hover {
+    border-width: 2px;
+    border-style: solid;
+    border-image: linear-gradient(to bottom, red, rgba(0, 0, 0, 0)) 30%;
+  }
+}
+
+@keyframes rbg_text {
+  0% {
+    background-color: rgba(128, 128, 128);
+  }
+  50% {
+    background-color: purple;
+  }
+  100% {
+    background: white;
+  }
+}

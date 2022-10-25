@@ -1,0 +1,45 @@
+.work__container {
+}
+
+.all__items {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.work__item img {
+  width: 250px;
+  padding: 0;
+  margin: 0;
+}
+
+.work__item {
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 255, 255, 0.7),
+    rgba(0, 255, 255, 0.3)
+  );
+  padding-bottom: 10px;
+  border-radius: 0 0 20px 20px;
+}
+
+.work__item h3 {
+  text-align: center;
+}
+
+.work__cta {
+  text-align: center;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.work__cta a {
+  padding: 5px;
+  border: 2px solid black;
+  border-radius: 30px;
+}
