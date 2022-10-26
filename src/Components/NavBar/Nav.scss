@@ -15,6 +15,11 @@
   left: 30px;
 }
 
+.nav__icons Link {
+  color: white;
+  fill: white;
+}
+
 .nav__icons {
   font-size: 2rem;
 }
@@ -29,6 +34,7 @@
   position: absolute;
   right: 70px;
   top: 50%;
+  color: white;
 }
 
 .icon__mail {
@@ -54,10 +60,13 @@
   font-weight: 900;
   outline: auto;
   padding: 10px;
+  transition: 0.5s;
+  color: white;
 
   &:hover {
-    color: purple;
-    outline: 1px solid purple;
+    outline: 3px solid purple;
+    border-radius: 25px;
+    transition: 0.5s;
   }
 }
 
