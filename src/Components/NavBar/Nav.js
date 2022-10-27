@@ -50,7 +50,7 @@ const Nav = () => {
 
       {/* The h3 should change depending on the section of the page */}
       <Link to="/contact">
-        <h3>Contact </h3>
+        <Cbutton name="Contact" />
       </Link>
     </nav>
   );
